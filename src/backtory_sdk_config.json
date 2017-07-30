@@ -1,0 +1,21 @@
+{
+    "integratedMasterKey": "<<X-Backtory-Authentication-Key (Master)>>",
+    "integratedInstances": [
+        {
+            "id": "<<X-Backtory-Authentication-Id>>",
+            "type": "auth"
+        },
+        {
+            "id": "<<X-Backtory-Object-Storage-Id>>",
+            "type": "object-storage"
+        },
+        {
+            "id": "<<Cloud-Code-Id>>",
+            "type": "lambda"
+        },
+        {
+            "id": "<<X-Backtory-Storage-Id>>",
+            "type": "cdn"
+        }
+    ]
+}
